@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 210vh;
+    font-family: sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+.container {
+    max-width: 1320px;
+    width: 100%;
+    padding: 0 12px;
+    margin: 0 auto;
+}
+/* header start */
+
+.header {
+    min-height: 1040px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.nav {
+    padding: 20px 0;
+    z-index: 999;}
+
+.nav .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.list {
+    display: flex;
+}
+
+.Logo {
+    font-size: 36px;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.link {
+    /* font-size: 30px; */
+    color: #fff;
+    text-transform: uppercase;
+    margin-left: 30px;
+}
+
+img {
+    position: absolute;
+}
+
+.bg {
+    top: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.sea {
+    bottom: 0;
+    height: 300px;
+    z-index: 3;
+    width: 100%;
+    object-fit: cover;
+}
+
+.star {
+    top: 0;
+    width: 100%;
+}
+
+.seaSmirch2 {
+    left: 0;
+    bottom: 8%;
+    width: 50%;
+    z-index: 4;
+
+}
+.seaSmirch1 {
+    right: 0;
+    bottom: 8%;
+    width: 50%;
+    z-index: 4;
+}
+
+.sun {
+    top: 25%;
+    width: 50%;
+    transform: translateX(-50%);
+    left: 50%;
+}
+
+.SunShade {
+    bottom: 180px;
+    z-index: 4;
+    width: 50%;
+    transform: translateX(-48%);
+    left: 48%;
+}
+.TopL {
+    top: 2%;
+    width: 30%;
+}
+
+.ButLeft {
+    bottom: 150px;
+    width: 30%;
+    z-index: 4;
+}
+.TopRight {
+    top: 2%;
+    width: 30%;
+    right: 0;
+    z-index: 3;
+}
+.ButRight {
+    bottom: 150px;
+    width: 33%;
+    right:  0;
+    z-index: 4;
+}
+
+.Spark1 {
+    top: 5%;
+    left: 53%;
+    width: 20%;
+}
+.Spark2 {
+    top: 10%;
+    left: 68%;
+    width: 22%;
+}
+.Spark3 {
+    top: 30%;
+    left: 68%;
+    width: 22%;
+}
+.Spark4 {
+    top: 28%;
+    left: 48%;
+    width: 12%;
+}
+.Spark5 {
+    top: 4%;
+    left: 35%;
+    width: 12%;
+}
+/* header end */
